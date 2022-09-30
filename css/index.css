@@ -1,0 +1,93 @@
+header{
+    overflow: auto;
+}
+img{
+    -webkit-user-drag: none;
+}
+/********** START GRAPH **********/
+.wrapper {
+    width: auto;
+    height: auto;
+    margin: 6em auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+span{
+    color: #78F8EC;
+}
+.container {
+    flex: 1;
+    padding: 0 20px;
+}
+/*.bottom-center{
+    position: absolute;
+    bottom: 0px;
+}*/
+#taux-temp, #taux-hum{
+    max-width: 50%;
+    color: white;
+}
+/*.temphum {
+    min-width: 100px;
+    width: 225px;
+}*/
+.pad{
+    padding-top: 50px;
+}
+/*.b-info{
+
+    !important
+    magin: auto;
+    text-align: center;
+}*/
+#chartDataLocal1,#chartMinimaLocal1, #chartMaximaLocal1{
+    max-height: 300px;
+    max-width: 600px;
+}
+#graphs{
+    padding-left: 50px;
+}
+
+#svgbox{
+    max-width: 300px;
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+
+}
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    #cadre{
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;.
+        width: 50% !important;
+        /*transform: translateX(50%) !important;
+        left: 50% !important;*/
+/****************************************   DERNIERS CHANGEMENTS ICI, TESTER RESPONSIVE AVEC MAX WIDTH */
+    }
+    #graphs{
+        display: block !important;
+
+
+    }
+    #graphs{
+        max-width: 450px !important;
+    }
+    #svgbox{
+        margin: auto !important;
+    }
+    canvas{
+        width: 86% !important;
+    }
+    .aspect-ratio{
+        padding-left: 15px !important;
+    }
+    /*svg{
+        width: 50% !important;
+    }*/
+    }
+
+/********** END GRAPH **********/
